@@ -14,7 +14,9 @@ TO DO
 
 ## Why is it named like that?
 
-TO DO
+**Buho** means "Owl" in Spanish. This animal is associated with wisdom, and, according to myths, an owl standed at the blind side of the Greek godess Athenea for her to see the whole truth.
+
+This app metaphorically acts as an owl that provides users with wisdom as they face numerous privacy challenges and must make informed decisions in a world full of IoT devices that gather and process information about them.
 
 ## Questions and Suggestions
 
