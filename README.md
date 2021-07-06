@@ -1,8 +1,8 @@
-# Buho: An Accessible Privacy Assistant for the Internet of Things
+# Buho: The Inclusive Privacy Assistant for the Internet of Things
 
 ## What is it?
 
-**Buho** is an accessible privacy assistant for the Internet of Things. It is an app available for Android devices running Android 4.1 (Jelly Bean) or later.
+**Buho** is an inclusive privacy assistant for the Internet of Things. It is an app available for Android devices running Android 4.1 (Jelly Bean) or later.
 
 ## How was it built?
 
@@ -32,4 +32,6 @@ TO DO
 
 ## License
 
-TO DO
+This is Buho's license:
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
