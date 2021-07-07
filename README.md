@@ -24,7 +24,7 @@ If you have questions or suggestions about this project, please contact [japoved
 
 ## Version
 
-TO DO
+1.0 (July 2021)
 
 ## Author
 
