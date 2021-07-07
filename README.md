@@ -6,11 +6,11 @@
 
 ## How was it built?
 
-TO DO
+This Android app was developed using Kotlin, XML, and Android Jetpack.
 
 ## How can I run it?
 
-TO DO
+To do
 
 ## Why is it named like that?
 
