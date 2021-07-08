@@ -8,6 +8,10 @@
 
 This Android app was developed using Kotlin, XML, and Android Jetpack.
 
+### Architectural pattern
+
+This mobile app follows the Model-View-ViewModel (MVVM) architectural pattern.
+
 ## How can I run it?
 
 To do
