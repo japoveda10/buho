@@ -1,5 +1,9 @@
 # Buho: The Inclusive Privacy Assistant for the Internet of Things
 
+<p align="center">
+  <img alt="Buho's logo" src="https://raw.githubusercontent.com/japoveda10/buho/master/buho_logo.png?token=ADSLJ6DNLIJJV2OCF3VOFBLA6OYDW" height="200" width="200">
+</p>
+
 ## What is it?
 
 **Buho** is an inclusive privacy assistant for the Internet of Things. It is an app available for Android devices running Android 4.1 (Jelly Bean) or later.
