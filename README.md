@@ -1,16 +1,24 @@
-# Buho: An Accessible Privacy Assistant for the Internet of Things
+# Buho: The Inclusive Privacy Assistant for the Internet of Things
+
+<p align="center">
+  <img alt="Buho's logo" src="https://raw.githubusercontent.com/japoveda10/buho/master/buho_logo.png?token=ADSLJ6DNLIJJV2OCF3VOFBLA6OYDW" height="200" width="200">
+</p>
 
 ## What is it?
 
-**Buho** is an accessible privacy assistant for the Internet of Things. It is an app available for Android devices running Android 4.1 (Jelly Bean) or later.
+**Buho** is an inclusive privacy assistant for the Internet of Things. It is an app available for Android devices running Android 4.1 (Jelly Bean) or later.
 
 ## How was it built?
 
-TO DO
+This Android app was developed using Kotlin, XML, and Android Jetpack.
+
+### Architectural pattern
+
+This mobile app follows the Model-View-ViewModel (MVVM) architectural pattern.
 
 ## How can I run it?
 
-TO DO
+To do
 
 ## Why is it named like that?
 
@@ -24,7 +32,7 @@ If you have questions or suggestions about this project, please contact [japoved
 
 ## Version
 
-TO DO
+1.0 (July 2021)
 
 ## Author
 
@@ -32,4 +40,6 @@ TO DO
 
 ## License
 
-TO DO
+This is Buho's license:
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
