@@ -1,4 +1,4 @@
-package com.educationalappsdev.buho.ui.home
+package com.educationalappsdev.buho.ui.history
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.educationalappsdev.buho.R
 
-class HomeFragment : Fragment() {
+class HistoryFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private lateinit var historyViewModel: HistoryViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
+        historyViewModel =
+            ViewModelProvider(this).get(HistoryViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
+        val textView: TextView = root.findViewById(R.id.text_dashboard)
+        historyViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
