@@ -5,6 +5,6 @@
     <string name="title_home">Map</string>
     <string name="title_dashboard">Explore</string>
     <string name="title_notifications">My Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buhoLogoContentDescription">Buho logo. An owl appears at the top and a shield with the letters IoT appear at the bottom</string>
 </resources>
