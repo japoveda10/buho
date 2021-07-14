@@ -5,6 +5,7 @@
     <string name="title_activity_main">Buho</string>
     <string name="title_home">Mapa</string>
     <string name="title_history">Historia</string>
+    <string name="title_tips">Tips</string>
     <string name="title_settings">Ajustes</string>
     <string name="hello_blank_fragment">Hola fragmento en blanco</string>
     <string name="buhoLogoContentDescription">Logo de Buho. Un búho aparece arriba y abajo hay un escudo con las letras IoT</string>

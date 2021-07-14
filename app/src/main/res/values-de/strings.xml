@@ -5,6 +5,7 @@
     <string name="title_activity_main">Buho</string>
     <string name="title_home">Karte</string>
     <string name="title_history">Geschichte</string>
+    <string name="title_tips">Tipps</string>
     <string name="title_settings">Einstellungen</string>
     <string name="hello_blank_fragment">Hallo leeres Fragment</string>
     <string name="buhoLogoContentDescription">Buho Logo. Oben erscheint eine Eule und darunter ein Schild mit den Buchstaben IoT</string>
