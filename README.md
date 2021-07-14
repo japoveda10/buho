@@ -1,7 +1,7 @@
 # Buho: The Inclusive Privacy Assistant for the Internet of Things
 
 <p align="center">
-  <img alt="Buho's logo" src="" height="200" width="200">
+  <img alt="Buho's logo" src="https://raw.githubusercontent.com/japoveda10/buho/master/logo.png?token=ADSLJ6DVZBMJPZ2YGJJX7ZLA655PS" height="200" width="200">
 </p>
 
 ## What is it?
