@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Buho</string>
+    <string name="app_name" translatable="false">Buho</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Buho</string>
     <string name="title_home">Map</string>
-    <string name="title_dashboard">Explore</string>
-    <string name="title_notifications">My Profile</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="buhoLogoContentDescription">Buho logo. An owl appears at the top and a shield with the letters IoT appear at the bottom</string>
 </resources>
