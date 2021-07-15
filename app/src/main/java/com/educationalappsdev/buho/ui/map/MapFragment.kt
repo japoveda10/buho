@@ -14,6 +14,8 @@ class MapFragment : Fragment() {
 
     private lateinit var mapViewModel: MapViewModel
 
+
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
