@@ -115,8 +115,22 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        /*val sharedPref = this?.getSharedPreferences(
-            getString(R.string.preference_file_key), Context.MODE_PRIVATE)*/
+        /*val preference = context.getSharedPreferences(PRIVACY_PROFILE, Context.MODE_PRIVATE)
+
+         if (PRIVACY_PROFILE == 0) {
+           Run NSD
+         }
+         else if (PRIVACY_PROFILE == 1) {
+           Run NSD
+           Run Wi-Fi Direct (P2P)
+         }
+         else {
+           Run NSD
+           Run Wi-Fi Direct (P2P)
+           Run Bluetooth scan
+           Run Bluetooth Low Energy Scan
+         }
+         */
 
         val SERVICE_TYPE = "_telnet._tcp."
 
