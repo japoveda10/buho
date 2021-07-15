@@ -15,4 +15,11 @@
     <string name="map_frag_tv_device_3">Device 3</string>
     <string name="map_frag_tv_device_3_description">Yesterday, you blocked this device from having access to your location</string>
     <string name="history_frag_tv_yesterday">Yesterday</string>
+    <string name="tips_frag_tv_smarthome_tips">Smart home tips</string>
+    <string name="tips_frag_tv_tip_1">Tip 1</string>
+    <string name="tips_frag_tv_tip_1_description">Scan your Wi-Fi network to identify which devices are connected to your Wi-Fi</string>
+    <string name="tips_frag_tv_tip_2">Tip 2</string>
+    <string name="tips_frag_tv_tip_2_description">Change the default passwords that come with your devices</string>
+    <string name="tips_frag_tv_tip_3">Tip 3</string>
+    <string name="tips_frag_tv_tip_3_description">Check if your devices have a security update</string>
 </resources>

@@ -16,4 +16,11 @@
     <string name="map_frag_tv_device_3">Dispositivo 3</string>
     <string name="map_frag_tv_device_3_description">Ayer, bloqueaste este dispositivo de tener acceso a tu ubicación</string>
     <string name="history_frag_tv_yesterday">Ayer</string>
+    <string name="tips_frag_tv_smarthome_tips">Tips hogar inteligente</string>
+    <string name="tips_frag_tv_tip_1">Tip 1</string>
+    <string name="tips_frag_tv_tip_1_description">Escanea con frecuencia tu red Wi-Fi con una aplicación como Fing para identificar los dispositivos asociados a tu red</string>
+    <string name="tips_frag_tv_tip_2">Tip 2</string>
+    <string name="tips_frag_tv_tip_2_description">Cambia las contraseñas que vienen por defecto en dispositivos</string>
+    <string name="tips_frag_tv_tip_3">Tip 3</string>
+    <string name="tips_frag_tv_tip_3_description">Revisa si tus dispositivos tienen una actualización de seguridad</string>
 </resources>

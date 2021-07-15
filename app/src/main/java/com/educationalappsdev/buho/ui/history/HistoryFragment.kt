@@ -22,9 +22,6 @@ class HistoryFragment : Fragment() {
         historyViewModel =
             ViewModelProvider(this).get(HistoryViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_history, container, false)
-        historyViewModel.text.observe(viewLifecycleOwner, Observer {
-
-        })
         return root
     }
 }

@@ -16,4 +16,11 @@
     <string name="map_frag_tv_device_3">Gerät 3</string>
     <string name="map_frag_tv_device_3_description">Gestern hast du diesem Gerät den Zugriff auf deinen Standort gesperrt</string>
     <string name="history_frag_tv_yesterday">Gestern</string>
+    <string name="tips_frag_tv_smarthome_tips">Smart home Tipps</string>
+    <string name="tips_frag_tv_tip_1">Tipp 1</string>
+    <string name="tips_frag_tv_tip_1_description">Scannen Sie Ihr Wi-Fi-Netzwerk häufig mit einer Anwendung wie Fing, um die mit Ihrem Netzwerk verbundenen Geräte zu identifizieren</string>
+    <string name="tips_frag_tv_tip_2">Tipp 2</string>
+    <string name="tips_frag_tv_tip_2_description">Ändern Sie die Passwörter, die standardmäßig auf Geräten verwendet werden</string>
+    <string name="tips_frag_tv_tip_3">Tipp 3</string>
+    <string name="tips_frag_tv_tip_3_description">Überprüfen Sie, ob Ihre Geräte über ein Sicherheitsupdate verfügen</string>
 </resources>

@@ -16,4 +16,11 @@
     <string name="map_frag_tv_device_3">Appareil 3</string>
     <string name="map_frag_tv_device_3_description">Hier, vous avez empêché cet appareil daccéder à votre position</string>
     <string name="history_frag_tv_yesterday">Hier</string>
+    <string name="tips_frag_tv_smarthome_tips">Smart home tips</string>
+    <string name="tips_frag_tv_tip_1">Tip 1</string>
+    <string name="tips_frag_tv_tip_1_description">Scannez fréquemment votre réseau Wi-Fi avec une application comme Fing pour identifier les appareils associés à votre réseau</string>
+    <string name="tips_frag_tv_tip_2">Tip 2</string>
+    <string name="tips_frag_tv_tip_2_description">Changer les mots de passe fournis par défaut sur lappareils</string>
+    <string name="tips_frag_tv_tip_3">Tip 3</string>
+    <string name="tips_frag_tv_tip_3_description">Vérifiez si vos appareils disposent dune mise à jour de sécurité</string>
 </resources>
