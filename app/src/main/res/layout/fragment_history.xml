@@ -1,23 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.history.HistoryFragment">
 
-    <TextView
-        android:id="@+id/text_history"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/yesterdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/history_frag_tv_yesterday"
+                android:textSize="@dimen/deviceName"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="15dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/cardCornerRadius"
+                app:cardElevation="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/paragraph_shape">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/heightImageViewMap"
+                        android:src="@drawable/device_1"
+                        android:contentDescription="Image of Amazon Echo, a smart speaker"
+                        android:layout_marginTop="1dp"
+                        android:scaleType="centerCrop"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/green_500"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/map_frag_tv_device_1"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/deviceName"
+                        android:textColor="@color/green_700"
+                        android:layout_marginRight="@dimen/marginMapSubtitle"
+                        android:layout_marginLeft="@dimen/marginMapSubtitle"
+                        android:layout_marginTop="@dimen/marginMapSubtitle"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/green_500"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/map_frag_tv_device_1_description"
+                        android:textSize="@dimen/subtitleSize"
+                        android:textColor="@color/green_500"
+                        android:layout_marginRight="@dimen/marginMapSubtitle"
+                        android:layout_marginLeft="@dimen/marginMapSubtitle"
+                        android:layout_marginTop="@dimen/marginMapSubtitle"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/cardCornerRadius"
+                app:cardElevation="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/paragraph_shape">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/heightImageViewMap"
+                        android:src="@drawable/device_2"
+                        android:contentDescription="Image of Google Home Mini, a smart speaker"
+                        android:scaleType="centerCrop"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/green_500"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/map_frag_tv_device_2"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/deviceName"
+                        android:textColor="@color/green_700"
+                        android:layout_marginRight="@dimen/marginMapSubtitle"
+                        android:layout_marginLeft="@dimen/marginMapSubtitle"
+                        android:layout_marginTop="@dimen/marginMapSubtitle"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/green_500"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/map_frag_tv_device_2_description"
+                        android:textSize="@dimen/subtitleSize"
+                        android:textColor="@color/green_500"
+                        android:layout_marginRight="@dimen/marginMapSubtitle"
+                        android:layout_marginLeft="@dimen/marginMapSubtitle"
+                        android:layout_marginTop="@dimen/marginMapSubtitle"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/cardCornerRadius"
+                app:cardElevation="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="70dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/paragraph_shape">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/heightImageViewMap"
+                        android:src="@drawable/device_3"
+                        android:contentDescription="Image of a fitness wearable"
+                        android:scaleType="centerCrop"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/green_500"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/map_frag_tv_device_3"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/deviceName"
+                        android:textColor="@color/green_700"
+                        android:layout_marginRight="@dimen/marginMapSubtitle"
+                        android:layout_marginLeft="@dimen/marginMapSubtitle"
+                        android:layout_marginTop="@dimen/marginMapSubtitle"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/green_500"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/map_frag_tv_device_3_description"
+                        android:textSize="@dimen/subtitleSize"
+                        android:textColor="@color/green_500"
+                        android:layout_marginRight="@dimen/marginMapSubtitle"
+                        android:layout_marginLeft="@dimen/marginMapSubtitle"
+                        android:layout_marginTop="@dimen/marginMapSubtitle"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

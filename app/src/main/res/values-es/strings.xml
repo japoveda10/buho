@@ -9,4 +9,11 @@
     <string name="title_settings">Ajustes</string>
     <string name="hello_blank_fragment">Hola fragmento en blanco</string>
     <string name="buhoLogoContentDescription">Logo de Buho. Un búho aparece arriba y abajo hay un escudo con las letras IoT</string>
+    <string name="map_frag_tv_device_1">Dispositivo 1</string>
+    <string name="map_frag_tv_device_1_description">Ayer, este nuevo dispositivo IoT fue descubierto</string>
+    <string name="map_frag_tv_device_2">Dispositivo 2</string>
+    <string name="map_frag_tv_device_2_description">Ayer, este nuevo dispositivo IoT fue descubierto</string>
+    <string name="map_frag_tv_device_3">Dispositivo 3</string>
+    <string name="map_frag_tv_device_3_description">Ayer, bloqueaste este dispositivo de tener acceso a tu ubicación</string>
+    <string name="history_frag_tv_yesterday">Ayer</string>
 </resources>

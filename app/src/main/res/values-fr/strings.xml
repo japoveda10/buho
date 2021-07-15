@@ -9,4 +9,11 @@
     <string name="title_settings">Paramètres</string>
     <string name="hello_blank_fragment">Bonjour fragment vierge</string>
     <string name="buhoLogoContentDescription">Logo de Buho. Un hibou apparaît en haut et un bouclier avec les lettres IoT apparaît en bas</string>
+    <string name="map_frag_tv_device_1">Appareil 1</string>
+    <string name="map_frag_tv_device_1_description">Hier, ce nouveau dispositif IoT a été découvert</string>
+    <string name="map_frag_tv_device_2">Appareil 2</string>
+    <string name="map_frag_tv_device_2_description">Hier, ce nouveau dispositif IoT a été découvert</string>
+    <string name="map_frag_tv_device_3">Appareil 3</string>
+    <string name="map_frag_tv_device_3_description">Hier, vous avez empêché cet appareil daccéder à votre position</string>
+    <string name="history_frag_tv_yesterday">Hier</string>
 </resources>
