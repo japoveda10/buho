@@ -4,7 +4,7 @@ class IoTDevice {
     var name = ""
     var manufacturer = ""
     var imageURL = ""
-    var latitude = ""
     var longitude = ""
+    var latitude = ""
     var privacyPolicyURL = ""
 }
