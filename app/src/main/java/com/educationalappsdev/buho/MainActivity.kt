@@ -115,6 +115,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+        /*val sharedPref = this?.getSharedPreferences(
+            getString(R.string.preference_file_key), Context.MODE_PRIVATE)*/
+
         val SERVICE_TYPE = "_telnet._tcp."
 
         // Makes asynchronous API call
