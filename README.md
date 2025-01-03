@@ -35,17 +35,13 @@ This mobile app follows the Model-View-ViewModel (MVVM) architectural pattern.
 
 This app metaphorically acts as an owl that provides users with wisdom as they face numerous privacy challenges and must make informed decisions in a world full of IoT devices that gather and process information about them.
 
-## Questions and Suggestions
-
-If you have questions or suggestions about this project, please contact [japoveda10](mailto:ja.poveda10@uniandes.edu.co)
-
 ## Version
 
 1.0 (July 2021)
 
 ## Author
 
-[japoveda10](https://github.com/japoveda10)
+[juliopovedacs](https://github.com/juliopovedacs)
 
 ## License
 
